@@ -16,9 +16,9 @@ source lra/bin/activate
 pip3 install -r requirements.txt
 cd src
 ```
-Store all the pre-trained teacher model in `../cache/models`.
+Store all the pre-trained teacher model in `/cache/models`.
 
-Experiments with their hyperparameters are present in the `./configs` directory as `.json` files.
+Experiments with their hyperparameters are present in the `./src/configs` directory as `.json` files.
 
 Use the following command to run an experiment:
 ```bash
