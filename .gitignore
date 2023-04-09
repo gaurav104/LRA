@@ -13,6 +13,7 @@ __pycache__/
 *.pth 
 *.pth.tar 
 *.tar 
+*.zip
 
 
 # C extensions
