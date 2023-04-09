@@ -1,0 +1,35 @@
+{
+  "exp_name": "dfkdmem_example_1",
+  "agent": "PREDFKDMemAgent",
+  "mode": "train",
+
+  "cuda": true,
+  "gpu_device": 0,
+  "seed": 1,
+
+  "student": "resnet18",
+
+  "dataset": "cifar100",
+  "data": "../dataset",
+
+  "teacher_dir": "../cache/models/",
+  "teacher_name": "cifar100_teacher_resnet34",
+  "max_epoch": 400,
+
+  "gen_iter": 1,
+  "kd_iter": 10,
+  "memory_capacity": 10,
+
+  "batch_size": 1024,
+  "lr_S": 0.1,
+  "lr_G": 0.02,
+  "latent_dim": 1000,
+
+  "img_size": 32,
+  "oh": 1,
+  "ie": 5,
+  "a": 0.1,
+
+  "checkpoint_filename": "checkpoint.pth.tar"
+
+}
