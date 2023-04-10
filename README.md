@@ -16,7 +16,7 @@ source lra/bin/activate
 pip3 install -r requirements.txt
 cd src
 ```
-Store all the pre-trained teacher model in `/cache/models`. [Link](https://purdue0-my.sharepoint.com/:u:/g/personal/pate1332_purdue_edu/Ee5BueIz7L9PvpBSTNef3joB8nXIujnxya1wnXpDTW9ssg?e=tYh93J)
+Store all the pre-trained teacher models in `./cache/models`. [Link](https://purdue0-my.sharepoint.com/:u:/g/personal/pate1332_purdue_edu/Ee5BueIz7L9PvpBSTNef3joB8nXIujnxya1wnXpDTW9ssg?e=tYh93J)
 
 Experiments with their hyperparameters are present in the `./src/configs` directory as `.json` files.
 
